@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		F418D3A10A19F5C100C1475D /* BSSExpParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F418D3A00A19F5C100C1475D /* BSSExpParser.m */; };
+		F418F7A50A20448700944FB0 /* tokenCharacter.txt in Resources */ = {isa = PBXBuildFile; fileRef = F418F7A40A20448700944FB0 /* tokenCharacter.txt */; };
+		F418FCE50A22045E00944FB0 /* HeaderViewMenuItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = F418D5170A1B741600C1475D /* HeaderViewMenuItems.plist */; };
+		F427504F0A1733B5001040BD /* BSSpotlighter.m in Sources */ = {isa = PBXBuildFile; fileRef = F427504E0A1733B5001040BD /* BSSpotlighter.m */; };
+		F42753690A18A4F8001040BD /* BSSToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = F42753680A18A4F8001040BD /* BSSToolbar.m */; };
+		F42A97300B57E03700200AB4 /* BSSArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42A972F0B57E03700200AB4 /* BSSArrayController.m */; };
+		F42A98BE0B57EE2F00200AB4 /* BSSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F42A98BD0B57EE2F00200AB4 /* BSSTableView.m */; };
+		F467924B0B72285A001B0001 /* NSAppleEventDescriptor-Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F467924A0B72285A001B0001 /* NSAppleEventDescriptor-Extensions.m */; };
+		F46792640B722A16001B0001 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46792630B722A16001B0001 /* ApplicationServices.framework */; };
+		F467926F0B722A81001B0001 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F467926E0B722A81001B0001 /* Carbon.framework */; };
+		F4B235F40B0B6F2200456346 /* BSSpotlighter.icns in Resources */ = {isa = PBXBuildFile; fileRef = F4B235F30B0B6F2200456346 /* BSSpotlighter.icns */; };
+		F4B5D6810B189F3C0015F530 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F4B5D6800B189F3C0015F530 /* Credits.rtf */; };
+		F4D8CDF70B343F0A00B8FDB7 /* BSSUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D8CDF60B343F0A00B8FDB7 /* BSSUtil.m */; };
+		F4EAB9690A1CBD7F00362E31 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = F427505A0A17340F001040BD /* MainMenu.nib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* BSSpotlighter_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSSpotlighter_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* BSSpotlighter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSSpotlighter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F418D39F0A19F5C100C1475D /* BSSExpParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSSExpParser.h; sourceTree = "<group>"; };
+		F418D3A00A19F5C100C1475D /* BSSExpParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSSExpParser.m; sourceTree = "<group>"; };
+		F418D5170A1B741600C1475D /* HeaderViewMenuItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = HeaderViewMenuItems.plist; sourceTree = "<group>"; };
+		F418F7A40A20448700944FB0 /* tokenCharacter.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tokenCharacter.txt; sourceTree = "<group>"; };
+		F427504D0A1733B5001040BD /* BSSpotlighter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSSpotlighter.h; sourceTree = "<group>"; };
+		F427504E0A1733B5001040BD /* BSSpotlighter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSSpotlighter.m; sourceTree = "<group>"; };
+		F427505A0A17340F001040BD /* MainMenu.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = MainMenu.nib; sourceTree = "<group>"; };
+		F42753670A18A4F8001040BD /* BSSToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSSToolbar.h; sourceTree = "<group>"; };
+		F42753680A18A4F8001040BD /* BSSToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSSToolbar.m; sourceTree = "<group>"; };
+		F42A972E0B57E03700200AB4 /* BSSArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSSArrayController.h; sourceTree = "<group>"; };
+		F42A972F0B57E03700200AB4 /* BSSArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSSArrayController.m; sourceTree = "<group>"; };
+		F42A98BC0B57EE2F00200AB4 /* BSSTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSSTableView.h; sourceTree = "<group>"; };
+		F42A98BD0B57EE2F00200AB4 /* BSSTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSSTableView.m; sourceTree = "<group>"; };
+		F46792490B72285A001B0001 /* NSAppleEventDescriptor-Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAppleEventDescriptor-Extensions.h"; sourceTree = "<group>"; };
+		F467924A0B72285A001B0001 /* NSAppleEventDescriptor-Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAppleEventDescriptor-Extensions.m"; sourceTree = "<group>"; };
+		F46792630B722A16001B0001 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		F467926E0B722A81001B0001 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		F4B235F30B0B6F2200456346 /* BSSpotlighter.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = BSSpotlighter.icns; sourceTree = "<group>"; };
+		F4B5D6800B189F3C0015F530 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		F4D8CDF50B343F0A00B8FDB7 /* BSSUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSSUtil.h; sourceTree = "<group>"; };
+		F4D8CDF60B343F0A00B8FDB7 /* BSSUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSSUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				F46792640B722A16001B0001 /* ApplicationServices.framework in Frameworks */,
+				F467926F0B722A81001B0001 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F427504D0A1733B5001040BD /* BSSpotlighter.h */,
+				F427504E0A1733B5001040BD /* BSSpotlighter.m */,
+				F42753670A18A4F8001040BD /* BSSToolbar.h */,
+				F42753680A18A4F8001040BD /* BSSToolbar.m */,
+				F418D39F0A19F5C100C1475D /* BSSExpParser.h */,
+				F418D3A00A19F5C100C1475D /* BSSExpParser.m */,
+				F42A972E0B57E03700200AB4 /* BSSArrayController.h */,
+				F42A972F0B57E03700200AB4 /* BSSArrayController.m */,
+				F42A98BC0B57EE2F00200AB4 /* BSSTableView.h */,
+				F42A98BD0B57EE2F00200AB4 /* BSSTableView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F467926E0B722A81001B0001 /* Carbon.framework */,
+				F46792630B722A16001B0001 /* ApplicationServices.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* BSSpotlighter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* BSSpotlighter */ = {
+			isa = PBXGroup;
+			children = (
+				F46793810B724013001B0001 /* Mics */,
+				F46792480B72283F001B0001 /* Extensions */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = BSSpotlighter;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* BSSpotlighter_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F418F7A40A20448700944FB0 /* tokenCharacter.txt */,
+				F4B5D6800B189F3C0015F530 /* Credits.rtf */,
+				F4B235F30B0B6F2200456346 /* BSSpotlighter.icns */,
+				F418D5170A1B741600C1475D /* HeaderViewMenuItems.plist */,
+				F427505A0A17340F001040BD /* MainMenu.nib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F46792480B72283F001B0001 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F46792490B72285A001B0001 /* NSAppleEventDescriptor-Extensions.h */,
+				F467924A0B72285A001B0001 /* NSAppleEventDescriptor-Extensions.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		F46793810B724013001B0001 /* Mics */ = {
+			isa = PBXGroup;
+			children = (
+				F4D8CDF50B343F0A00B8FDB7 /* BSSUtil.h */,
+				F4D8CDF60B343F0A00B8FDB7 /* BSSUtil.m */,
+			);
+			name = Mics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* BSSpotlighter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "BSSpotlighter" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BSSpotlighter;
+			productInstallPath = "$(HOME)/Applications";
+			productName = BSSpotlighter;
+			productReference = 8D1107320486CEB800E47090 /* BSSpotlighter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BSSpotlighter" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* BSSpotlighter */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* BSSpotlighter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EAB9690A1CBD7F00362E31 /* MainMenu.nib in Resources */,
+				F418FCE50A22045E00944FB0 /* HeaderViewMenuItems.plist in Resources */,
+				F418F7A50A20448700944FB0 /* tokenCharacter.txt in Resources */,
+				F4B235F40B0B6F2200456346 /* BSSpotlighter.icns in Resources */,
+				F4B5D6810B189F3C0015F530 /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				F427504F0A1733B5001040BD /* BSSpotlighter.m in Sources */,
+				F42753690A18A4F8001040BD /* BSSToolbar.m in Sources */,
+				F418D3A10A19F5C100C1475D /* BSSExpParser.m in Sources */,
+				F4D8CDF70B343F0A00B8FDB7 /* BSSUtil.m in Sources */,
+				F42A97300B57E03700200AB4 /* BSSArrayController.m in Sources */,
+				F42A98BE0B57EE2F00200AB4 /* BSSTableView.m in Sources */,
+				F467924B0B72285A001B0001 /* NSAppleEventDescriptor-Extensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_FAST_OBJC_DISPATCH = YES;
+				GCC_MODEL_TUNING = "";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = BSSpotlighter;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_FAST_OBJC_DISPATCH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = "";
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				PRODUCT_NAME = BSSpotlighter;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "BSSpotlighter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BSSpotlighter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

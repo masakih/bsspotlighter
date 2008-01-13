@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>displayName</key>
+		<string>板名</string>
+		<key>identifier</key>
+		<string>jp_tsawada2_bathyscaphe_thread_BoardName</string>
+	</dict>
+	<dict>
+		<key>displayName</key>
+		<string>スレ名</string>
+		<key>identifier</key>
+		<string>kMDItemTitle</string>
+	</dict>
+	<dict>
+		<key>displayName</key>
+		<string>レス数</string>
+		<key>identifier</key>
+		<string>jp_tsawada2_bathyscaphe_thread_ResCount</string>
+	</dict>
+	<dict>
+		<key>displayName</key>
+		<string>dat</string>
+		<key>identifier</key>
+		<string>jp_tsawada2_bathyscaphe_thread_DatNumber</string>
+	</dict>
+	<dict>
+		<key>displayName</key>
+		<string>サイズ</string>
+		<key>identifier</key>
+		<string>jp_tsawada2_bathyscaphe_thread_DatSize</string>
+	</dict>
+	<dict>
+		<key>displayName</key>
+		<string>作成日</string>
+		<key>identifier</key>
+		<string>kMDItemContentCreationDate</string>
+	</dict>
+	<dict>
+		<key>displayName</key>
+		<string>更新日</string>
+		<key>identifier</key>
+		<string>kMDItemContentModificationDate</string>
+	</dict>
+	<dict>
+		<key>displayName</key>
+		<string>ログの場所</string>
+		<key>identifier</key>
+		<string>kMDItemPath</string>
+	</dict>
+</array>
+</plist>
