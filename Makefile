@@ -37,7 +37,7 @@ package: release
 Info.plist: Info.plist.template
 	sed -e "s/%%RELEASE%%/$(VERSION)/" -e "s/%%COPYLIGHT%%/$(COPYLIGHT)/" $< > $@
 
-updateRevision: update_svn Info.plist
+updateRevision: Info.plist update_svn
 	if [ ! -f $(INFO_PLIST).bak ] ; then cp $(INFO_PLIST) $(INFO_PLIST).bak ; fi ;	\
 	REV=`LC_ALL=C svn info | awk '/Revision/ {print $$2}'` ;	\
 	REV=`expr $$REV + $(REV_CORRECT)`	;	\
