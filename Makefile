@@ -19,7 +19,7 @@ all:
 	@echo do  nothig.
 	@echo use target tagging 
 
-tagging:
+tagging: update_svn
 	@echo "Tagging the $(VERSION) (x) release of BSSpotlighter project."
 	REV=`LC_ALL=C svn info | awk '/Revision/ {print $$2}'` ;	\
 	REV=`expr $$REV + $(REV_CORRECT)`	;	\
