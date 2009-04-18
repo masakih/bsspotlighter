@@ -197,7 +197,7 @@ static BSSExpParser *sharedInstance = nil;
 			notStr = @" NOT ";
 			continue;
 		} else {
-			[result appendFormat:@"%@%@(%@ LIKE[cw] '*%@*')", andOrStr, notStr, key, str];
+			[result appendFormat:@"%@%@(%@ LIKE[cd] '*%@*')", andOrStr, notStr, key, str];
 			isFirst = NO;
 		}
 		
