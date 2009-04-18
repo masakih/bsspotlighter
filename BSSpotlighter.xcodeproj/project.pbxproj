@@ -36,7 +36,7 @@
 		8D1107320486CEB800E47090 /* BSSpotlighter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSSpotlighter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F418D39F0A19F5C100C1475D /* BSSExpParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSSExpParser.h; sourceTree = "<group>"; };
 		F418D3A00A19F5C100C1475D /* BSSExpParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSSExpParser.m; sourceTree = "<group>"; };
-		F418D5170A1B741600C1475D /* HeaderViewMenuItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = HeaderViewMenuItems.plist; sourceTree = "<group>"; };
+		F418D5170A1B741600C1475D /* HeaderViewMenuItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = HeaderViewMenuItems.plist; sourceTree = "<group>"; };
 		F418F7A40A20448700944FB0 /* tokenCharacter.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tokenCharacter.txt; sourceTree = "<group>"; };
 		F427504D0A1733B5001040BD /* BSSpotlighter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSSpotlighter.h; sourceTree = "<group>"; };
 		F427504E0A1733B5001040BD /* BSSpotlighter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSSpotlighter.m; sourceTree = "<group>"; };
