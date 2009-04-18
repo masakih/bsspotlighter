@@ -1,31 +1,50 @@
 {
-    IBClasses = (
-        {CLASS = BSSArrayController; LANGUAGE = ObjC; SUPERCLASS = NSArrayController; }, 
-        {CLASS = BSSTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }, 
-        {
-            CLASS = BSSToolbar; 
-            LANGUAGE = ObjC; 
-            OUTLETS = {foundNum = id; searchField = id; spin = id; }; 
-            SUPERCLASS = NSObject; 
-        }, 
-        {
-            ACTIONS = {
-                changePredicate = id; 
-                openInfomationInFinder = id; 
-                openSelections = id; 
-                showHideHeader = id; 
-            }; 
-            CLASS = BSSpotlighter; 
-            LANGUAGE = ObjC; 
-            OUTLETS = {mFoundListController = id; mSearchField = id; mTableView = id; mWindow = id; }; 
-            SUPERCLASS = NSObject; 
-        }, 
-        {
-            ACTIONS = {openSelections = id; }; 
-            CLASS = FirstResponder; 
-            LANGUAGE = ObjC; 
-            SUPERCLASS = NSObject; 
+    IBClasses =     (
+                {
+            CLASS = BSSArrayController;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSArrayController;
+        },
+                {
+            CLASS = BSSTableView;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSTableView;
+        },
+                {
+            CLASS = BSSToolbar;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                foundNum = id;
+                searchField = id;
+                spin = id;
+            };
+            SUPERCLASS = NSObject;
+        },
+                {
+            ACTIONS =             {
+                changePredicate = id;
+                openInfomationInFinder = id;
+                openSelections = id;
+                showHideHeader = id;
+            };
+            CLASS = BSSpotlighter;
+            LANGUAGE = ObjC;
+            OUTLETS =             {
+                mFoundListController = id;
+                mSearchField = id;
+                mTableView = id;
+                mWindow = id;
+            };
+            SUPERCLASS = NSObject;
+        },
+                {
+            ACTIONS =             {
+                openSelections = id;
+            };
+            CLASS = FirstResponder;
+            LANGUAGE = ObjC;
+            SUPERCLASS = NSObject;
         }
-    ); 
-    IBVersion = 1; 
+    );
+    IBVersion = 1;
 }
