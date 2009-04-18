@@ -23,4 +23,6 @@
 
 - (void)openThread:(id)path;
 
+- (id) metadataQuery;
+- (void) setMatadataQuery: (id) newValue;
 @end

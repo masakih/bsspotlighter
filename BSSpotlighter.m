@@ -17,7 +17,7 @@ enum {
 };
 
 @interface BSSpotlighter(HMPrivate)
-- (NSMetadataQuery *)createQuery;
+-(NSArray *)bsDocumentDirectory;
 - (NSPredicate *)createPredicate;
 
 - (void)setCurrentPredicateForMenuItem:(id)item;
@@ -88,6 +88,27 @@ static NSString *CustomTableViewStateKey = @"CustomTableViewState";
 }
 
 #pragma mark## Key Value Coding ##
+- (id) metadataQuery
+{
+	if(mQuery) return mQuery;
+	
+//	[self willChangeValueForKey:@"mQuery"];
+	
+	mQuery = [[NSMetadataQuery alloc] init];
+	if(!mQuery) return nil;
+	
+	[mQuery setSearchScopes:[self bsDocumentDirectory]];
+	
+//	[self didChangeValueForKey:@"mQuery"];
+	
+	return mQuery;
+}
+
+- (void) setMatadataQuery: (id) newValue
+{
+	[mQuery autorelease];
+	mQuery = [newValue retain];
+}
 - (NSArray *)currentKeys
 {
 	return mCurrentKeys;
@@ -363,21 +384,6 @@ static NSString *CustomTableViewStateKey = @"CustomTableViewState";
 }
 
 #pragma mark -
-- (NSMetadataQuery *)createQuery
-{
-	if(mQuery) return mQuery;
-	
-	[self willChangeValueForKey:@"mQuery"];
-	
-	mQuery = [[NSMetadataQuery alloc] init];
-	if(!mQuery) return nil;
-	
-	[mQuery setSearchScopes:[self bsDocumentDirectory]];
-	
-	[self didChangeValueForKey:@"mQuery"];
-	
-	return mQuery;
-}
 - (NSPredicate *)createPredicate
 {
 	NSPredicate *predicate;
@@ -412,16 +418,13 @@ static NSString *CustomTableViewStateKey = @"CustomTableViewState";
 		predicate02 = [array componentsJoinedByString:@" || "];
 	}
 	
-	predicate02 = [NSString stringWithFormat:@"kMDItemContentType == \"jp.tsawada2.bathyscaphe.thread\" && (%@)", predicate02];
+	predicate02 = [NSString stringWithFormat:@"kMDItemContentType = \"jp.tsawada2.bathyscaphe.thread\" && (%@)", predicate02];
 	predicate = [NSPredicate predicateWithFormat:predicate02];
 	BSSLog(@"Tokens -> %@", predicate);
 	
-	if(!mQuery) {
-		[self createQuery];
-	}
-	[mQuery setPredicate:predicate];
-	if(![mQuery isStarted]) {
-		[mQuery startQuery];
+	[[self metadataQuery] setPredicate:predicate];
+	if(![[self metadataQuery] isStarted]) {
+		[[self metadataQuery] startQuery];
 	}
 	
 	return predicate;
